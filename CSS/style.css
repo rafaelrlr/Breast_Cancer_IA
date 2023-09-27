@@ -1,0 +1,70 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.bg-custom {
+    background-color: #ffffff !important; 
+    border-bottom-style: groove;
+    border-color:  #8f8f8f3b;
+}
+
+
+.navbar-taller {
+    height: 100px; 
+}
+
+.navbar-brand {
+    font-size: 24px; 
+}
+
+
+.nav-link {
+    font-size: 18px;
+}
+
+.container-with-margin-top {
+    margin-top: 200px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 150px 0 150px;
+}
+
+
+.custom-image {
+    max-width: 100%; 
+    max-height: 300px; 
+    box-shadow: 5px 10px 20px rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
+
+.container.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+  
+}
+
+.bg-image {
+    background-image: url('/IMG/pexels-anna-shvets-3900426.jpg'); 
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: white; 
+    
+}
+
+.bg-image h2,
+.bg-image p {
+    padding-bottom: 0;
+}
+
+.custom-margin-top {
+    padding-top: 40px;
+}
+
