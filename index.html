@@ -5,29 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/bootstrap.css">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="icon" href="./IMG/icon.png" type="image/png">
     <title>Breast AI</title>
 </head>
 <body>
-
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#">Breast AI</a>
+ 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar fixed-top">
+        <a class="navbar-brand" href="./index.html">Breast AI</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Câncer de Mama</a>
+              <a class="nav-link" href="#Câncer de Mama">Câncer de Mama</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre a IA</a>
+              <a class="nav-link" href="#Sobre a IA">Sobre a IA</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Diagnóstico</a>
+              <a class="nav-link" href="#Diagnóstico">Diagnóstico</a>
             </li>
           </ul>
         </div>
@@ -36,42 +36,236 @@
 
       <div class="container custom-div">
         <div class="row">
-          <!-- Imagem à esquerda -->
-          <div class="col-md-6">
-            <img src="./IMG/pexels-leeloo-thefirst-7792641.jpg" alt="Imagem" class="img-fluid">
-          </div>
-          <!-- Texto à direita -->
-          <div class="col-md-6">
-            <h1>Bem-Vindo ao Portal de Diagnóstico de Câncer de Mama</h1>
-            <p>Nosso portal utiliza dados do "Breast Cancer Wisconsin Diagnostic Dataset" para fornecer um sistema avançado de diagnóstico de câncer de mama. Estamos comprometidos em oferecer informações precisas e confiáveis para ajudar na detecção precoce e no tratamento eficaz dessa condição crítica.</p>
-          </div>
+            <!-- Texto no topo -->
+            <div class="col-12 text-center">
+                <h1 class="titulos">Bem-Vindo ao Breast AI</h1>
+                <p class="paragrafos">O nosso portal foi criado com a missão de revolucionar o diagnóstico e tratamento do câncer de mama,
+                   é um sistema avançado que utiliza o "Breast Cancer Wisconsin Diagnostic Dataset" como sua espinha dorsal. 
+                   Este portal foi concebido com o objetivo de fornecer uma plataforma de diagnóstico de última geração, 
+                   capaz de oferecer informações altamente precisas e confiáveis para melhorar substancialmente a detecção precoce 
+                   e o tratamento eficaz do câncer de mama. Em essência, nosso portal é uma ferramenta poderosa para médicos, 
+                   pesquisadores e pacientes, oferecendo acesso a um vasto conjunto de dados clínicos e de diagnóstico contidos 
+                   no "Breast Cancer Wisconsin Diagnostic Dataset", a fim de promover avanços na área da saúde.</p>
+            <!-- </div> -->
+            <!-- <div class="col-md-6 order-md-1 img_home"> -->
+                <img src="./IMG/pexels-leeloo-thefirst-7792641.jpg" alt="Breast Cancer" class="img-fluid fixed-image">
+            <!-- </div> -->
         </div>
-      </div>
+    </div>
+    
 
     <div class="container my-5">
         <div class="row">
-            <div class="col-md-8">
-                <h1>Câncer de Mama</h1>
-                <p>O câncer de mama é uma doença que se origina nas células do tecido mamário. Normalmente, as células do corpo se dividem e se regeneram de forma controlada, mas no câncer de mama, essas células sofrem mutações e crescem de maneira desordenada. Isso pode resultar na formação de tumores malignos ou benignos nas mamas.</p>
+            <div class="col-md-12 text-center">
+                <h1 class="titulos" id="Câncer de Mama">Câncer de Mama</h1>
+                <p class="paragrafos">O câncer de mama é uma doença que se origina nas células do tecido mamário. 
+                  Normalmente, as células do corpo se dividem e se regeneram de forma controlada, 
+                  mas no câncer de mama, essas células sofrem mutações e crescem de maneira desordenada. 
+                  Isso pode resultar na formação de tumores malignos ou benignos nas mamas.
+                  Vários fatores podem aumentar o risco de desenvolver câncer de mama, incluindo idade avançada, 
+                  histórico familiar da doença, mutações genéticas, exposição a estrogênio, obesidade, consumo de álcool e radiação ionizante.</p>
+                  <p class="paragrafos"> Os sintomas do câncer de mama podem incluir a presença de um nódulo na mama ou axila, alterações na forma ou tamanho da mama, 
+                    dor mamária, alterações na pele da mama, secreção mamilar anormal e alterações no mamilo. O diagnóstico envolve exames como mamografia, 
+                    ultrassonografia, ressonância magnética, biópsia e outros.</p>
+                    <br> 
+                  <img src="./IMG/diagnostico.jpg" alt="Diagnóstico" class="img_diag">
+                  <br> 
+                  <br> 
             </div>
         </div>
     </div>
 
     <div class="container-fluid bg-image">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 text-center bg-image-content">
+              <br> 
             <h1>Let's Beat Cancer</h1>
+            <p class="paragrafos">Outubro é o Mês de Conscientização sobre o Câncer de Mama, 
+              período dedicado a campanhas que visam alertar sobre a importância do diagnóstico precoce e oferecer apoio a pacientes e sobreviventes.</p>
+            <p class="paragrafos">Para mais informações, acesse o site do <a href="https://www.gov.br/saude/pt-br" 
+              target="_blank">Ministério da Saúde</a>.</p>
+              <br> 
             </div>
         </div>
     </div>
     <div class="container my-5">
         <div class="row">
-            <div class="col-md-8">
-                <h2>Como Utilizamos a IA:</h2>
-                <p>Nossa plataforma utiliza a inteligência artificial (IA) para analisar os dados clínicos e as características das células presentes em amostras de biópsia. Com base nessa análise, nosso sistema classifica as amostras como "Malignas" (indicando câncer) ou "Benignas" (não cancerosas).</p>
+            <div class="col-md-12 text-center">
+                <h2 class="titulos" id="Sobre a IA">Como Utilizamos a IA:</h2>
+                <br>
+                <img src="./IMG/IA.webp" alt="IA">
+                <br>
+                <br>
+                <p class="paragrafos">Nossa plataforma utiliza a inteligência artificial (IA) para analisar os dados clínicos e as características das células presentes em amostras de biópsia. Com base nessa análise, nosso sistema classifica as amostras como "Malignas" (indicando câncer) ou "Benignas" (não cancerosas).</p>
             </div>
         </div>
     </div>
+
+    <div class="container my-5">
+      <div class="row">
+          <div class="col-md-12 text-center">
+              <h2 class="titulos" id="Diagnóstico">Diagnóstico</h2>
+              <br>
+              <form>
+                  <p class="paragrafos">Preencha os campos com base no Breast Cancer Wisconsin Diagnostic Dataset:<p>
+                    
+                  <div class="form-group">
+                      <label for="campo1">Campo 1:</label>
+                      <input type="text" class="form-control" id="campo1" name="campo1">
+                  </div>
+                
+                  <div class="form-group">
+                      <label for="campo2">Campo 2:</label>
+                      <input type="text" class="form-control" id="campo2" name="campo2">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo3">Campo 3:</label>
+                    <input type="text" class="form-control" id="campo3" name="campo3">
+                  </div>
+
+                  <div class="form-group">
+                      <label for="campo4">Campo 4:</label>
+                      <input type="text" class="form-control" id="campo4" name="campo4">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo5">Campo 5:</label>
+                    <input type="text" class="form-control" id="campo5" name="campo5">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo6">Campo 6:</label>
+                    <input type="text" class="form-control" id="campo6" name="campo6">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo7">Campo 7:</label>
+                    <input type="text" class="form-control" id="campo7" name="campo7">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo8">Campo 8:</label>
+                    <input type="text" class="form-control" id="campo8" name="campo8">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo9">Campo 9:</label>
+                    <input type="text" class="form-control" id="campo9" name="campo9">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo10">Campo 10:</label>
+                    <input type="text" class="form-control" id="campo10" name="campo10">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo11">Campo 11:</label>
+                    <input type="text" class="form-control" id="campo11" name="campo11">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo12">Campo 12:</label>
+                    <input type="text" class="form-control" id="campo12" name="campo12">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo13">Campo 13:</label>
+                    <input type="text" class="form-control" id="campo13" name="campo13">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo14">Campo 14:</label>
+                    <input type="text" class="form-control" id="campo14" name="campo14">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo15">Campo 15:</label>
+                    <input type="text" class="form-control" id="campo15" name="campo15">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo16">Campo 16:</label>
+                    <input type="text" class="form-control" id="campo16" name="campo16">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo17">Campo 17:</label>
+                    <input type="text" class="form-control" id="campo17" name="campo17">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo18">Campo 18:</label>
+                    <input type="text" class="form-control" id="campo18" name="campo18">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo19">Campo 19:</label>
+                    <input type="text" class="form-control" id="campo19" name="campo19">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo20">Campo 20:</label>
+                    <input type="text" class="form-control" id="campo20" name="campo20">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo21">Campo 21:</label>
+                    <input type="text" class="form-control" id="campo21" name="campo21>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo22">Campo 22:</label>
+                    <input type="text" class="form-control" id="campo22" name="campo22">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo23">Campo 23:</label>
+                    <input type="text" class="form-control" id="campo23" name="campo23">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo24">Campo 24:</label>
+                    <input type="text" class="form-control" id="campo24" name="campo24">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo25">Campo 25:</label>
+                    <input type="text" class="form-control" id="campo25" name="campo25">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo26">Campo 26:</label>
+                    <input type="text" class="form-control" id="campo26" name="campo26">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo27">Campo 27:</label>
+                    <input type="text" class="form-control" id="campo27" name="campo27">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo28">Campo 28:</label>
+                    <input type="text" class="form-control" id="campo28" name="campo28">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo29">Campo 29:</label>
+                    <input type="text" class="form-control" id="campo29" name="campo29">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="campo30">Campo 30:</label>
+                    <input type="text" class="form-control" id="campo30" name="campo30">
+                  </div>
+
+                  <button type="submit" class="btn btn-primary">Resultado</button>
+              </form>
+          </div>
+      </div>
+  </div>
+
+  
 
   <script type="text/javascript" src="./JS/jquery-3.2.1.slim.min.js"></script>
   <script type="text/javascript" src="./JS/popper.min.js"></script>
