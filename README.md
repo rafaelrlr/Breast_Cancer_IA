@@ -31,4 +31,14 @@ O conjunto de dados utilizado neste projeto é o "Wisconsin Diagnostic Breast Ca
 
 - **Previsões em Tempo Real** (opcional): O modelo pode ser integrado a um aplicativo web para permitir que os usuários façam previsões em tempo real com base em entradas fornecidas.
 
+## Integrantes
 
+- **Alessandra Ramalho**
+
+- **Laura Pimentel**
+
+- **Rafael Leal**
+
+- **Tuanny Silva**
+
+- **Wesley William**
