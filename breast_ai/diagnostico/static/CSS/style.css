@@ -1,0 +1,145 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+}
+
+.custom-navbar{
+    background-color: #F9D5E3;
+    color: #ffffff;
+}
+
+.nav-item {
+    margin-right: 1.25rem;
+}
+
+
+.navbar-brand {
+    font-size: 1.875rem; 
+}
+
+.nav-link {
+    font-size: 1.25rem;
+}
+
+
+.custom-div {
+    margin-top: 6.25rem;
+}
+
+.custom-div h1 {
+    margin-bottom: 1.875rem;
+}
+
+.fixed-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.paragrafos{
+    padding: 0.625rem;
+    text-align: justify;
+}
+
+.fixed-image{
+    align-items: center;
+    width: 70%;
+}
+
+.titulos{
+   text-align: center;
+}
+
+.bg-image {
+    background-image: url('../IMG/pexels-anna-shvets-3900426.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    background-attachment: fixed;
+    color: #ffffff;
+    font-style: oblique;
+}
+
+.bg-image-content {
+    background-color: rgba(0, 0, 0, 0.038); 
+    padding-left: 1.25rem;
+}
+
+.btn{
+    background-color: #F9D5E3;
+    /* border-color: #F9D5E3; */
+    color: #ffffff;
+    
+}
+.btn:hover{
+    background-color: #F9D5E3;
+    border-color: #F9D5E3;
+    color: rgba(0, 0, 0, 0.547);
+}
+
+.btn::backdrop{
+    background-color: #F9D5E3;
+    border-color: #F9D5E3;
+}
+
+.form-group{
+    padding: 0.625rem;
+    text-align: justify; 
+}
+
+
+.footer-basic {
+    padding:2.5rem 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:1.125rem;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 0.625rem;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+
+  .footer-basic .copyright {
+    margin-top:0.9375rem;
+    text-align:center;
+    font-size:0.8125rem;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+
+
+
+@media (max-width: 47.9375rem) {
+    .fixed-image {
+        width: 100%;;
+    }
+}
+
+@media (max-width: 47.9375rem) {
+    .img_IA {
+        width: 70%;
+    }
+}
+
+@media (max-width: 47.9375rem) {
+    .img_diag {
+        width: 70%;
+    }
+}

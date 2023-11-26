@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script> -->
-    <!-- <link rel="stylesheet" href="./CSS/bootstrap.css">
-    <link rel="stylesheet" href="./CSS/style.css"> -->
-    <!-- <link rel="icon" href="./IMG/icon.png" type="image/png"> -->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'CSS/bootstrap.css' %}">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'CSS/style.css' %}"> 
+    {% load static %}
+    <link rel="icon" href="{% static 'IMG/icon.png' %}" type="image/png">
     <title>Breast AI</title>
 </head>
 <body>
@@ -46,10 +48,11 @@
                    e o tratamento eficaz do câncer de mama. Em essência, nosso portal é uma ferramenta poderosa para médicos, 
                    pesquisadores e pacientes, oferecendo acesso a um vasto conjunto de dados clínicos e de diagnóstico contidos 
                    no "Breast Cancer Wisconsin Diagnostic Dataset", a fim de promover avanços na área da saúde.</p>
-            <!-- </div> -->
-            <!-- <div class="col-md-6 order-md-1 img_home"> -->
-                <!-- <img src="./IMG/pexels-leeloo-thefirst-7792641.jpg" alt="Breast Cancer" class="img-fluid fixed-image"> -->
-            <!-- </div> -->
+            </div>
+            <div class="col-md-6 order-md-1 img_home">
+                {% load static %}
+                <img src="{% static 'IMG/pexels-leeloo-thefirst-7792641.jpg' %}" alt="Breast Cancer" class="img-fluid fixed-image ">
+            </div>
         </div>
     </div>
     
@@ -68,7 +71,8 @@
                     dor mamária, alterações na pele da mama, secreção mamilar anormal e alterações no mamilo. O diagnóstico envolve exames como mamografia, 
                     ultrassonografia, ressonância magnética, biópsia e outros.</p>
                     <br> 
-                  <!-- <img src="./IMG/diagnostico.jpg" alt="Diagnóstico" class="img_diag"> -->
+                    {% load static %}
+                  <img src="{% static 'IMG/diagnostico.jpg' %}" alt="Diagnóstico" class="img_diag">
                   <br> 
                   <br> 
             </div>
@@ -93,7 +97,8 @@
             <div class="col-md-12 text-center">
                 <h2 class="titulos" id="Sobre a IA">Como Utilizamos a IA:</h2>
                 <br>
-                <!-- <img src="./IMG/IA.webp" alt="IA" class="img_IA"> -->
+                {% load static %}
+                <img src="{% static 'IMG/IA.webp' %}" alt="IA" class="img_IA">
                 <br>
                 <br>
                 <p class="paragrafos">Nossa plataforma utiliza a inteligência artificial (IA) para analisar os dados clínicos e as características das células presentes em amostras de biópsia. Com base nessa análise, nosso sistema classifica as amostras como "Malignas" (indicando câncer) ou "Benignas" (não cancerosas).</p>
@@ -163,13 +168,14 @@
     </footer>
   </div>
 
-  
-  <!-- <script type="text/javascript" src="./JS/jquery-3.2.1.slim.min.js"></script>
-  <script type="text/javascript" src="./JS/popper.min.js"></script>
-  <script type="text/javascript" src="./JS/bootstrap.js"></script>
-  <script type="text/javascript" src="./JS/app.js"></script> -->
-  <!-- <script src="./JS/integracao.js"></script> -->
-  <!-- <script src="/breast_ai/diagnostico/static/integracao.js"></script> -->
+  {% load static %}
+  <script type="text/javascript" src="{% static 'JS/jquery-3.2.1.slim.min.js' %}"></script>
+  {% load static %}
+  <script type="text/javascript" src="{% static 'JS/popper.min.js' %}"></script>
+  {% load static %}
+  <script type="text/javascript" src="{% static 'JS/bootstrap.js' %}"></script>
+  {% load static %}
+  <script type="text/javascript" src="{% static 'JS/app.js' %}"></script>
   {% load static %}
 <script type="text/javascript" src="{% static 'integracao.js' %}"></script>
  
