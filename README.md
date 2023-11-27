@@ -1,4 +1,4 @@
-# Inteligencia_Artificial_Cancer
+# Breast_Cancer_IA
 Projeto de IA para previsão de diagnóstico de câncer de mama maligno ou benigno.
 
 # Diagnóstico de Câncer de Mama com IA
@@ -17,11 +17,10 @@ O conjunto de dados utilizado neste projeto é o "Wisconsin Diagnostic Breast Ca
 
 - Python: Linguagem de programação principal.
 - HTML, CSS e JavaScript: Para o Front-End.
-- scikit-learn: Biblioteca de aprendizado de máquina para treinamento de modelos. (exemplo)
-- Flask: Framework web para a implementação do sistema online (opcional). (exemplo)
-- Outras bibliotecas de processamento de dados e visualização, conforme necessário. (exemplo)
+- Django: Django é um framework para desenvolvimento rápido para web, escrito em Python, que utiliza o padrão model-template-view.
+- Outras bibliotecas de processamento de dados e visualização, conforme necessário.
 
-## Funcionalidades (exemplos)
+## Funcionalidades
 
 - **Pré-processamento de Dados**: Os dados brutos do conjunto de dados são processados para eliminar valores ausentes, normalizar características e preparar os dados para treinamento do modelo.
 
@@ -29,7 +28,7 @@ O conjunto de dados utilizado neste projeto é o "Wisconsin Diagnostic Breast Ca
 
 - **Avaliação do Modelo**: O modelo treinado é avaliado usando métricas como precisão, recall, F1-score e matriz de confusão para determinar sua eficácia.
 
-- **Previsões em Tempo Real** (opcional): O modelo pode ser integrado a um aplicativo web para permitir que os usuários façam previsões em tempo real com base em entradas fornecidas.
+- **Previsões em Tempo Real**: O modelo foi integrado a um aplicativo web para permitir que os usuários façam previsões em tempo real com base em entradas fornecidas.
 
 ## Integrantes
 
