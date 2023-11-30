@@ -127,4 +127,4 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-baseurl = '/diagnostico/index.html'
+baseurl = 'breast_ai/diagnostico/templates/diagnostico/index.html'
