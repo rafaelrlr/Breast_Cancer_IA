@@ -9,7 +9,7 @@ modelo = joblib.load('./diagnostico/modeloTreinamento.pkl')
 
 def index(request):
     # return render(request, 'diagnostico/index.html')
-    return render(request, './diagnostico/index.html')
+    return render(request, './diagnostico/templates/diagnostico/index.html')
 
 @csrf_exempt
 def realizar_predicao(request):
