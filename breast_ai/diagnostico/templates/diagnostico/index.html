@@ -9,19 +9,19 @@
     <link rel="stylesheet" href="{% static 'CSS/style.css' %}"> 
     {% load static %}
     <link rel="icon" href="{% static 'IMG/icon.png' %}" type="image/png">
-    <title>Breast AI</title>
+    <title>Breast Cancer AI</title>
 </head>
 <body>
  
-    <nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar fixed-top">
-        <a class="navbar-brand" href="./index.html">Breast AI</a>
+    <nav class="navbar navbar-expand-lg navbar-light custom-navbar fixed-top">
+        <a class="navbar-brand" href="#">Breast Cancer AI</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="./index.html">Home</a>
+              <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#Câncer de Mama">Câncer de Mama</a>
@@ -40,7 +40,7 @@
       <div class="container custom-div">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h1 class="titulos">Bem-Vindo ao Breast AI</h1>
+                <h1 class="titulos">A inteligência artificial que pode salvar vidas</h1>
                 <p class="paragrafos">O nosso portal foi criado com a missão de revolucionar o diagnóstico e tratamento do câncer de mama,
                    é um sistema avançado que utiliza o "Breast Cancer Wisconsin Diagnostic Dataset" como sua espinha dorsal. 
                    Este portal foi concebido com o objetivo de fornecer uma plataforma de diagnóstico de última geração, 
@@ -49,13 +49,12 @@
                    pesquisadores e pacientes, oferecendo acesso a um vasto conjunto de dados clínicos e de diagnóstico contidos 
                    no "Breast Cancer Wisconsin Diagnostic Dataset", a fim de promover avanços na área da saúde.</p>
             </div>
-            <div class="col-md-6 order-md-1 img_home">
+            <div class="col-md-12 order-md-1 img_home">
                 {% load static %}
-                <img src="{% static 'IMG/pexels-leeloo-thefirst-7792641.jpg' %}" alt="Breast Cancer" class="img-fluid fixed-image ">
+                <img src="{% static 'IMG/pexels-leeloo-thefirst-7792641.jpg' %}" alt="Breast Cancer" class="img-fluid fixed-image" id= "breast">
             </div>
         </div>
     </div>
-    
 
     <div class="container my-5">
         <div class="row">
@@ -81,9 +80,9 @@
 
     <div class="container-fluid bg-image">
         <div class="row">
-            <div class="col-md-12 text-center bg-image-content">
+            <div class="col-md-12 text-center">
               <br> 
-            <h1>Let's Beat Cancer</h1>
+            <h1 class="titulos">Vamos Vencer o Câncer de Mama!</h1>
             <p class="paragrafos">Outubro é o Mês de Conscientização sobre o Câncer de Mama, 
               período dedicado a campanhas que visam alertar sobre a importância do diagnóstico precoce e oferecer apoio a pacientes e sobreviventes.</p>
             <p class="paragrafos">Para mais informações, acesse o site do <a href="https://www.gov.br/saude/pt-br" 
@@ -92,6 +91,7 @@
             </div>
         </div>
     </div>
+
     <div class="container my-5">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -140,7 +140,7 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="campo6">Saída:</label>
+                    <label for="campo6">Diagnóstico:</label>
                     <!-- <span id="resultado"></span>  -->
                     <input type="text" class="form-control" id="resultado" name="campo6" readonly>
                   </div>
@@ -153,18 +153,16 @@
       </div>
   </div>
 
-  <hr>
 
   <div class="footer-basic">
     <footer>
         <ul class="list-inline">
-            <!-- <li class="list-inline-item"><a href="./index.html">Home</a></li> -->
             <li class="list-inline-item"><a href="#Câncer de Mama">Câncer de Mama</a></li>
             <li class="list-inline-item"><a href="#Sobre a IA">Sobre a IA</a></li>
             <li class="list-inline-item"><a href="#Diagnóstico">Diagnóstico</a></li>
             <li class="list-inline-item"><a href="https://github.com/rafaelrlr/Inteligencia_Artificial_Cancer" target="_blank">About Us</a></li>
         </ul>
-        <p class="copyright">Breast AI © 2023</p>
+        <p class="copyright">Breast Cancer AI © 2023</p>
     </footer>
   </div>
 

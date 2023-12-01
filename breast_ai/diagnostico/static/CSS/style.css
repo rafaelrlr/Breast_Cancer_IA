@@ -1,12 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Handlee&family=Kaushan+Script&family=Pacifico&display=swap');
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.25rem;
+    background-image: url('../IMG/pexels-anna-shvets-3900426.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
 }
 
 .custom-navbar{
-    background-color: #F9D5E3;
-    color: #ffffff;
+    background-color: #ffffff;
 }
+
+
 
 .nav-item {
     margin-right: 1.25rem;
@@ -15,12 +24,14 @@ body {
 
 .navbar-brand {
     font-size: 1.875rem; 
+    font-family: 'Handlee', cursive;
 }
 
 .nav-link {
     font-size: 1.25rem;
+    font-family: 'Handlee', cursive;
+    
 }
-
 
 .custom-div {
     margin-top: 6.25rem;
@@ -30,53 +41,75 @@ body {
     margin-bottom: 1.875rem;
 }
 
-.fixed-image {
+/* .fixed-image {
     max-width: 100%;
     height: auto;
-}
+} */
 
 .paragrafos{
     padding: 0.625rem;
     text-align: justify;
 }
 
-.fixed-image{
+/* .fixed-image{
     align-items: center;
     width: 70%;
+} */
+
+/* #breast{
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    width: 70%;
+} */
+
+#breast {
+    margin: 0 auto;
+    display: block;
+    display: flex;
+    align-items: center;
+    width: 60%;
+
+    border-radius: 3.125rem;
 }
+
 
 .titulos{
    text-align: center;
+   font-family: 'Handlee', cursive;
 }
 
 .bg-image {
-    background-image: url('../IMG/pexels-anna-shvets-3900426.jpg');
-    background-size: cover;
-    /* background-position: center; */
+    /* background-image: url('../IMG/pexels-anna-shvets-3900426.jpg'); */
+    /* background-size: cover;
+    background-position: center;
     background-attachment: fixed;
-    color: #ffffff;
+    color: #000000; */
+    background-color: #ffffff;
     font-style: oblique;
 }
 
+
 .bg-image-content {
-    background-color: rgba(0, 0, 0, 0.038); 
+    /* background-color: rgba(0, 0, 0, 0.038);  */
     padding-left: 1.25rem;
 }
 
 .btn{
-    background-color: #F9D5E3;
+    background-color: #ffffff;
     /* border-color: #F9D5E3; */
-    color: #ffffff;
+    color: #000000;
     
 }
 .btn:hover{
-    background-color: #F9D5E3;
-    border-color: #F9D5E3;
+    background-color: #ffffff;
+    border-color: #ffffff;
     color: rgba(0, 0, 0, 0.547);
 }
 
 .btn::backdrop{
-    background-color: #F9D5E3;
+    background-color: #ffffff;
     border-color: #F9D5E3;
 }
 
@@ -87,12 +120,14 @@ body {
 
 
 .footer-basic {
+    font-family: 'Handlee', cursive;
+    font-size: 1.25rem;
     padding:2.5rem 0;
     background-color:#ffffff;
-    color:#4b4c4d;
+    
   }
   
-  .footer-basic ul {
+.footer-basic ul {
     padding:0;
     list-style:none;
     text-align:center;
@@ -101,34 +136,69 @@ body {
     margin-bottom:0;
   }
   
-  .footer-basic li {
+.footer-basic li {
     padding:0 0.625rem;
   }
   
-  .footer-basic ul a {
+.footer-basic ul a {
     color:inherit;
     text-decoration:none;
     opacity:0.8;
   }
   
-  .footer-basic ul a:hover {
+.footer-basic ul a:hover {
     opacity:1;
   }
 
-  .footer-basic .copyright {
+.footer-basic .copyright {
     margin-top:0.9375rem;
     text-align:center;
     font-size:0.8125rem;
-    color:#aaa;
+    color:#8a8a8a;
     margin-bottom:0;
   }
 
+.img_diag{
+    margin: 0 auto;
+    display: block;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    border-radius: 3.125rem;
+}
 
+.container-fluid{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+ 
+  
+.img_IA{
+    margin: 0 auto;
+    display: block;
+    display: flex;
+    align-items: center;
+    width: 60%;
 
+    border-radius: 3.125rem;
+}
 
 @media (max-width: 47.9375rem) {
     .fixed-image {
-        width: 100%;;
+        width: 100%;
+    }
+    #breast{
+        width: 100%;
+        border-radius: 0rem;
+    }
+    .img_diag{
+        width: 100%;
+        border-radius: 0rem;  
+    }
+    .img_IA{
+        width: 100%;
+        border-radius: 0rem;
     }
 }
 
@@ -136,10 +206,13 @@ body {
     .img_IA {
         width: 70%;
     }
-}
-
-@media (max-width: 47.9375rem) {
     .img_diag {
         width: 70%;
+        border-radius: 0rem;
+    }
+    #breast{
+        width: 70%;
+        
     }
 }
+
