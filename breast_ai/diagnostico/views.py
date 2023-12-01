@@ -8,8 +8,7 @@ from django.views.decorators.csrf import csrf_exempt
 modelo = joblib.load('./diagnostico/modeloTreinamento.pkl')
 
 def index(request):
-    # return render(request, 'diagnostico/index.html')
-    return render(request, './breast_ai/diagnostico/templates/diagnostico/index.html') #Testando - Rafael
+    return render(request, 'diagnostico/index.html')
 
 @csrf_exempt
 def realizar_predicao(request):
