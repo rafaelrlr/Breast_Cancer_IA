@@ -3,19 +3,32 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.25rem;
-    background-image: url('../IMG/pexels-anna-shvets-3900426.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    
+    font-size: 1.25rem;  
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .custom-navbar{
     background-color: #ffffff;
+    background-image: url('../IMG/fundo.png');
+    background-size: cover;
+    border-bottom: 0.125rem solid rgba(0, 0, 0, 0.055);
 }
 
+.Sobre_a_IA{
+    margin-top: -3.125rem;
+}
 
+#Diagnóstico{
+    margin-top: 2.313rem; 
+}
+
+#btnPrevisao{
+    margin-top: 2.313rem;
+    margin-bottom: 2.313rem;
+}
 
 .nav-item {
     margin-right: 1.25rem;
@@ -41,28 +54,12 @@ body {
     margin-bottom: 1.875rem;
 }
 
-/* .fixed-image {
-    max-width: 100%;
-    height: auto;
-} */
 
 .paragrafos{
     padding: 0.625rem;
     text-align: justify;
 }
 
-/* .fixed-image{
-    align-items: center;
-    width: 70%;
-} */
-
-/* #breast{
-    height: auto;
-    margin-right: auto;
-    margin-left: auto;
-    align-items: center;
-    width: 70%;
-} */
 
 #breast {
     margin: 0 auto;
@@ -71,34 +68,32 @@ body {
     align-items: center;
     width: 60%;
 
-    border-radius: 3.125rem;
+    border-radius: 2rem;
 }
 
 
 .titulos{
    text-align: center;
-   font-family: 'Handlee', cursive;
+    
 }
 
-.bg-image {
-    /* background-image: url('../IMG/pexels-anna-shvets-3900426.jpg'); */
-    /* background-size: cover;
-    background-position: center;
+/* .info {
+    background-image: url('../IMG/pexels-anna-shvets-3900426.jpg');
+    background-size: cover;
+    background-position: 20% 0;
     background-attachment: fixed;
-    color: #000000; */
+    color: #000000; 
     background-color: #ffffff;
-    font-style: oblique;
-}
+    
+} */
 
 
 .bg-image-content {
-    /* background-color: rgba(0, 0, 0, 0.038);  */
     padding-left: 1.25rem;
 }
 
 .btn{
     background-color: #ffffff;
-    /* border-color: #F9D5E3; */
     color: #000000;
     
 }
@@ -118,14 +113,31 @@ body {
     text-align: justify; 
 }
 
+.col-md-5{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.forms{
+    background-image: url('../IMG/pexels-anna-shvets-3900426.jpg');
+    background-size: cover;
+    background-position: 20% 0;
+    background-attachment: fixed;
+    color: #000000; 
+    background-color: #ffffff;
+    font-style: oblique; 
+}
 
 .footer-basic {
     font-family: 'Handlee', cursive;
     font-size: 1.25rem;
-    padding:2.5rem 0;
-    background-color:#ffffff;
-    
-  }
+    padding: 2.5rem 0;
+    background-color: #ffffff;
+    background-size: cover;
+    background-image: url('../IMG/fundo.png');
+    border-top: 0.125 solid rgba(0, 0, 0, 0.055);
+}
+
   
 .footer-basic ul {
     padding:0;
@@ -164,7 +176,8 @@ body {
     display: flex;
     align-items: center;
     width: 60%;
-    border-radius: 3.125rem;
+    
+    border-radius: 2rem;
 }
 
 .container-fluid{
@@ -181,38 +194,22 @@ body {
     align-items: center;
     width: 60%;
 
-    border-radius: 3.125rem;
+    border-radius: 2rem;
 }
 
+
 @media (max-width: 47.9375rem) {
-    .fixed-image {
-        width: 100%;
-    }
     #breast{
         width: 100%;
         border-radius: 0rem;
     }
     .img_diag{
         width: 100%;
-        border-radius: 0rem;  
+        border-radius: 0rem;
     }
     .img_IA{
         width: 100%;
         border-radius: 0rem;
-    }
-}
-
-@media (max-width: 47.9375rem) {
-    .img_IA {
-        width: 70%;
-    }
-    .img_diag {
-        width: 70%;
-        border-radius: 0rem;
-    }
-    #breast{
-        width: 70%;
-        
     }
 }
 

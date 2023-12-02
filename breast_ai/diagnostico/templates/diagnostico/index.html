@@ -47,7 +47,7 @@
                    capaz de oferecer informações altamente precisas e confiáveis para melhorar substancialmente a detecção precoce 
                    e o tratamento eficaz do câncer de mama. Em essência, nosso portal é uma ferramenta poderosa para médicos, 
                    pesquisadores e pacientes, oferecendo acesso a um vasto conjunto de dados clínicos e de diagnóstico contidos 
-                   no "Breast Cancer Wisconsin Diagnostic Dataset", a fim de promover avanços na área da saúde.</p>
+                   no "Breast Cancer Wisconsin Diagnostic Dataset", a fim de promover avanços na área da saúde. </p>
             </div>
             <div class="col-md-12 order-md-1 img_home">
                 {% load static %}
@@ -78,24 +78,11 @@
         </div>
     </div>
 
-    <div class="container-fluid bg-image">
-        <div class="row">
-            <div class="col-md-12 text-center">
-              <br> 
-            <h1 class="titulos">Vamos Vencer o Câncer de Mama!</h1>
-            <p class="paragrafos">Outubro é o Mês de Conscientização sobre o Câncer de Mama, 
-              período dedicado a campanhas que visam alertar sobre a importância do diagnóstico precoce e oferecer apoio a pacientes e sobreviventes.</p>
-            <p class="paragrafos">Para mais informações, acesse o site do <a href="https://www.gov.br/saude/pt-br" 
-              target="_blank">Ministério da Saúde</a>.</p>
-              <br> 
-            </div>
-        </div>
-    </div>
 
     <div class="container my-5">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h2 class="titulos" id="Sobre a IA">Como Utilizamos a IA:</h2>
+                <h2 class="titulos" class="Sobre_a_IA" id="Sobre a IA">Como Utilizamos a IA:</h2>
                 <br>
                 {% load static %}
                 <img src="{% static 'IMG/IA.webp' %}" alt="IA" class="img_IA">
@@ -106,9 +93,9 @@
         </div>
     </div>
 
-    <div class="container my-5">
+    <div class="container my-5 forms">
       <div class="row">
-          <div class="col-md-12 text-center">
+          <div class="col-md-5 text-center">
               <h2 class="titulos" id="Diagnóstico">Diagnóstico</h2>
               <br>
               <form>
@@ -153,6 +140,20 @@
       </div>
   </div>
 
+  <div class="container my-5 info">
+    <div class="row">
+        <div class="col-md-12 text-center">
+          <br> 
+        <h1 class="titulos">Vamos Vencer o Câncer de Mama!</h1>
+        <p class="paragrafos">Outubro é o Mês de Conscientização sobre o Câncer de Mama, 
+          período dedicado a campanhas que visam alertar sobre a importância do diagnóstico precoce e oferecer apoio a pacientes e sobreviventes.</p>
+        <p class="paragrafos">Para mais informações, acesse o site do <a href="https://www.gov.br/inca/pt-br/assuntos/cancer/tipos/mama" 
+          target="_blank">Ministério da Saúde</a>.</p>
+          <br> 
+        </div>
+    </div>
+</div>
+
 
   <div class="footer-basic">
     <footer>
@@ -165,6 +166,10 @@
         <p class="copyright">Breast Cancer AI © 2023</p>
     </footer>
   </div>
+
+  <div class="gtranslate_wrapper"></div>
+  <script>window.gtranslateSettings = {"default_language":"pt","languages":["pt","es","en"],"globe_color":"#66aaff","wrapper_selector":".gtranslate_wrapper","horizontal_position":"left","vertical_position":"bottom","alt_flags":{"en":"usa","pt":"brazil"}}</script>
+  <script src="https://cdn.gtranslate.net/widgets/latest/globe.js" defer></script>
 
   {% load static %}
   <script type="text/javascript" src="{% static 'JS/jquery-3.2.1.slim.min.js' %}"></script>
