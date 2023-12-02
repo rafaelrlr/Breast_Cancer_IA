@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-wfiho3at*_!ogs1fe4=#c^6@@jfxgq167&^%4^plt9b%5=)kyx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False #teste Netlify (estava True)
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
