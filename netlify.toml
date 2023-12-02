@@ -1,6 +1,6 @@
 [build]
   command = "python breast_ai/manage.py collectstatic --noinput && python breast_ai/manage.py migrate"
-  publish = "breast_ai/diagnostico/templates/diagnostico"
+  publish = "breast_ai/diagnostico/templates/diagnostico/index.html"
 
 [context.production]
   command = "python manage.py collectstatic --noinput && python manage.py migrate"
