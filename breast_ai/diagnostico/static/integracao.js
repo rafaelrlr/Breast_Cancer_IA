@@ -24,22 +24,25 @@ document.getElementById('btnPrevisao').addEventListener('click', function () {
         }
         return response.json();
     })
-    // .then(data => {
-    //     // Atualizar o campo de resultado com a previsão
-    //     document.getElementById('resultado').value = data.predicao; 
-    // })
+     .then(data => {
+         // Atualizar o campo de resultado com a previsão
+         document.getElementById('resultado').value = data.predicao; 
+     })
 
-
-    // Rafael Leal - Adicionar porcentagem no resultado
-    .then(data => {
-        console.log(data); // Verificar o conteúdo dos dados retornados no console
-        // Atualizar o campo de resultado com a previsão e a probabilidade
-        document.getElementById('resultado').value = `Previsão: ${data.predicao}, Probabilidade: ${data.probabilidade}%`; 
-    })
-    
-    
-    .catch(error => {
+     .catch(error => {
         console.error('Erro:', error);
         // Trate o erro conforme necessário
     });
 });
+ 
+
+    // Rafael Leal - Adicionar porcentagem no resultado
+    //.then(data => {
+        //console.log(data); // Verificar o conteúdo dos dados retornados no console
+        // Atualizar o campo de resultado com a previsão e a probabilidade
+        //document.getElementById('resultado').value = `Previsão: ${data.predicao}, Probabilidade: ${parseFloat(data.probabilidade).toFixed(2)}%`;
+
+    //})
+    
+    
+  
